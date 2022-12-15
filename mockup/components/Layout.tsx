@@ -22,7 +22,7 @@ const Layout = ({ children, title = 'SKYCATCHFIRE Mockup' }: Props) => (
   <div className="relative flex align-middle text-center justify-center">
     <div>
       <span className='flex pl-4 translate-y-[21px]'>⬥</span>
-    <h1 className="bg-white px-12 text-sm tracking-widest text-gray-500">MEET THE TEAM</h1>
+    <h1 className="bg-white uppercase px-12 text-sm tracking-widest text-gray-500">meet the team</h1>
       <span className='flex flex-row-reverse pr-4 -translate-y-[21px]'>⬥</span>
     </div>
   </div>

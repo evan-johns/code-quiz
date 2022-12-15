@@ -37,8 +37,8 @@ const Grid: NextPage = () => {
   <div className="relative h-96 w-72">
   <div className='relative mt-52 flex-col text-left justify-end ml-20'>
   <img src="../images/quotes.png" alt="quotes" className='w-12 h-12'/>
-    <h1 className='mt-3 text-blue-gray text-sm font-semibold leading-6'>I DRINK TO MAKE OTHER <br></br> PEOPLE MORE INTERESTING.</h1> 
-    <h2 className='text-orange text-xs font-semibold mt-2'>ERNEST HEMINGWAY</h2>
+    <h1 className='mt-3 text-blue-gray uppercase text-sm font-semibold leading-6'>i drink to make other people more interesting. </h1> 
+    <h2 className='text-orange uppercase text-xs font-semibold mt-2'>ernest hemingway</h2>
   </div>
 </div>
 
@@ -79,8 +79,8 @@ const Grid: NextPage = () => {
   <div className="relative h-96 w-72">
   <div className='relative mt-48 flex-col text-left justify-start'>
     <img src="../images/quotes.png" alt="quotes" className='w-12 h-12'/>
-    <h1 className='mt-3 text-blue-gray text-sm font-semibold leading-6'>GOOD PEOPLE DRINK GOOD<br></br>BEER.</h1> 
-    <h2 className='text-orange text-xs font-semibold mt-2'>HUNTER S. THOMPSON</h2>
+    <h1 className='mt-3 text-blue-gray uppercase text-sm font-semibold leading-6'>good people drink good<br></br>beer.</h1> 
+    <h2 className='text-orange uppercase text-xs font-semibold mt-2'>hunter s. thompson</h2>
   </div>
 </div>
 
@@ -119,10 +119,10 @@ const Grid: NextPage = () => {
 
 {/* 11 */}
  <div className="relative h-96 w-72">
-  <div className="absolute inset-0 flex flex-col justify-center items-center text-center opacity-1000 hover:opacity-100 bg-opacity-100  bg-off-white">
+  <div className="bg-off-white absolute inset-0 flex flex-col justify-center items-center text-center opacity-1000 hover:opacity-100 bg-opacity-100  ">
     <div className="flex flex-col px-10 justify-center text-center">
-    <h1 className="tracking-widest text-blue-gray text-3xl font-bold pb-4">JOIN OUR TEAM</h1>
-    <h2 className="tracking-widest font-normal text-sm text-blue-gray mb-4">THINK YOU'VE GOT WHAT IT TAKES?</h2>
+    <h1 className="text-blue-gray bg-off-white uppercase text-3xl font-bold pb-4">join our team</h1>
+    <h2 className="text-blue-gray uppercase font-normal text-sm  mb-4">think you've got what it takes?</h2>
     <div>
       <img src="./images/vineyard.png" alt="" className='absolute mt-12 left-52 w-28 h-28'/>
     </div>
