@@ -5,18 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      sm: "1064px",
-      md: "1255px",
-      lg: "1440px",
-    },
     letterSpacing: {
       tightest: "-.075em",
       tighter: "-.05em",
       tight: "-.025em",
       normal: "0",
-      wide: ".025em",
-      wider: ".05em",
+      wide: ".1em",
+      wider: ".15em",
       widest: ".25em",
     },
     colors: {

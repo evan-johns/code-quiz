@@ -8,7 +8,8 @@ const Grid: NextPage = () => {
   return (
     <Layout>
       {/* Grid element */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-0 gap-y-12  justify-items-center px-12 sm:px-64 md:px-52">
+    <div className="flex justify-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-y-10 gap-x-8 py-3 px-3">
         {/* 1 */}
         <Card
           h1text={"EVAN"}
@@ -135,10 +136,10 @@ const Grid: NextPage = () => {
         <div className="relative h-96 w-72">
           <div className="bg-off-white absolute inset-0 flex flex-col justify-center items-center text-center opacity-1000 hover:opacity-100 bg-opacity-100  ">
             <div className="flex flex-col px-10 justify-center text-center">
-              <h1 className="text-blue-gray bg-off-white uppercase text-3xl font-bold pb-4">
+              <h1 className="text-blue-gray bg-off-white uppercase text-3xl font-bold pb-4 tracking-wider">
                 join our team
               </h1>
-              <h2 className="text-blue-gray uppercase font-normal text-sm  mb-4">
+              <h2 className="text-blue-gray uppercase font-semibold text-sm tracking-widest mb-4">
                 think you've got what it takes?
               </h2>
               <div>
@@ -152,6 +153,7 @@ const Grid: NextPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </Layout>
   );
 };

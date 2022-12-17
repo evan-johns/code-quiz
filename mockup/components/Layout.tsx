@@ -14,15 +14,15 @@ const Layout = ({ children, title = "SKYCATCHFIRE Mockup" }: Props) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <header className="flex font-sans font-semibold pb-2 w-full">
-      <div className="relative py-4 w-full">
+    <header className="flex font-semibold w-full">
+      <div className="relative w-full">
         <div className="absolute inset-0 flex items-center">
           <div className="w-full mx-64 sm:mx-64 md:mx-52 border-b border-gray-300"></div>
         </div>
         <div className="relative flex align-middle text-center justify-center">
           <div>
             <span className="flex pl-4 translate-y-[21px]">⬥</span>
-            <h1 className="bg-white uppercase px-12 text-sm tracking-widest text-gray-500">
+            <h1 className="bg-white uppercase px-12 text-sm tracking-widest">
               meet the team
             </h1>
             <span className="flex flex-row-reverse pr-4 -translate-y-[21px]">
@@ -35,11 +35,11 @@ const Layout = ({ children, title = "SKYCATCHFIRE Mockup" }: Props) => (
     <div>{children}</div>
     <footer className="mt-10 mb-5 flex justify-center align-center">
       <div className="relative py-4 w-full">
-        <div className="absolute inset-0 flex items-center">
-          <div className="w-full mx-4 sm:mx-4 md:mx-52 border-b border-gray-300"></div>
+        <div className="absolute inset-0 flex justify-center items-center">
+          <div className="w-full mx-4 sm:mx-4 md:mx-52 border-b"></div>
         </div>
         <div className="relative flex justify-center">
-          <span className="bg-white px-4 text-sm text-gray-500">⬥</span>
+          <span className="bg-white px-4 text-sm">⬥</span>
         </div>
       </div>
     </footer>
