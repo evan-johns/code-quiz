@@ -16,8 +16,8 @@ const Layout = ({ children, title = "SKYCATCHFIRE Mockup" }: Props) => (
     </Head>
     <header className="flex font-semibold w-full">
       <div className="relative w-full">
-        <div className="absolute inset-0 flex items-center">
-          <div className="w-full mx-64 sm:mx-64 md:mx-52 border-b border-gray-300"></div>
+        <div className="absolute inset-0 flex justify-center items-center">
+          <div className="w-full max-w-lg border-b"></div>
         </div>
         <div className="relative flex align-middle text-center justify-center">
           <div>
